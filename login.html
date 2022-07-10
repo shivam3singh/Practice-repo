@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginPage</title>
+    <style>
+
+        
+        #center{
+            width: 70%;
+            background-color: rgb(66, 150, 202);
+            text-align: center;
+            margin: auto;
+            padding-top:80px ;
+            height: 700px;
+        }
+        #center>div{
+            width: 40%;
+            background-color: white;
+            text-align: center;
+            margin: auto;
+            padding-top: 150px;
+            height: 600px;
+            border-radius: 20px;
+        
+        }
+        #head{
+            text-align: center;
+            font-style: bold;
+            font-size: 40px;
+            margin-top: 0px;
+        }
+        body{
+            background-color: rgb(104, 104, 243);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .center{
+            width: 40%;
+            height: 800px;
+            margin: auto;
+            background-color:whitesmoke;
+            margin-top: 100px;
+            border-radius: 15px;
+            
+        }
+
+
+        .enterdata{
+            width: 70%;
+            border-bottom: 2px solid black;
+            position: relative;
+            text-align: center;
+        }
+        form{
+            text-align: center;
+        }
+
+        .center>h1{
+            padding: 50px 0px;
+            text-align: center;
+            font-size: 50px;
+        }
+       
+        .txt_field input{
+            width: 100%;
+            margin-bottom: 0px;
+            margin-top: 40px;
+            border: 0px;
+            padding: 10px 0px;
+            height: 10px;
+        }
+        .txt_field{
+            width: 50%;
+            border-bottom: 1px solid black;
+            margin: auto;
+        }
+
+        input[type="submit"]{
+            width: 50%;
+            margin: 50px 0px;
+            background: linear-gradient(120deg, #2980b9,#8e44ad);
+            height:50px;
+            border-radius: 5px;
+            border: 0px;
+        }
+        .newone{
+            margin: 30px 0px;
+            color: rgb(139, 136, 136);
+        }
+
+
+       
+
+        
+    </style>
+
+</head>
+<body>
+    <div class="center">
+        <h1>Login</h1>
+        <form>
+            <div class="txt_field">
+                <input id="email" placeholder="Email"/>
+            </div>
+            <div class="txt_field">
+                <input id="pass" placeholder="Password"/>
+           </div>
+           <div>
+            <input type="submit" value="login"/>
+            <div class="newone">
+                Forgot <a href="">Password</a>?
+            </div >
+            <div class="newone">
+                Don't have an account<a href="">Sign up</a>
+            </div>
+        </form>
+    </div>
+
+       
+</body>
+</html>
